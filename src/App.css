@@ -36,3 +36,231 @@
     transform: rotate(360deg);
   }
 }
+
+/* front-end design start */
+.navbar-light .navbar-nav .nav-link{
+  font-size: 18px;
+  color: #262626;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.header-back-img{
+  background-image: linear-gradient( rgba(10, 8, 8, 0.219), rgba(14, 3, 3, 0.377) ), url(./Images/_Group_.png);     
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 460px;
+  width: 100%;
+}
+.header-inside-content{
+  padding-top: 250px;
+}
+.header-inside-content .header-text-middle{
+  color: white;
+  font-weight: 400;
+  margin-top: 45px;
+}
+.header-inside-content .header-button-part{
+  margin-top: 40px;
+}
+.header-inside-content .header-button-part .text-default-part{
+  width: 90px;
+  height: 55px;
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 7px;
+}
+.log-in-btn{
+    background-color: #704AEC;
+    padding: 18px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border-color: #704AEC;
+    margin-top: 12px;
+    
+  
+}
+.log-in-btn:hover{
+  background-color: #11E7A5;
+  transition: 0.4s;
+  border-color: #11E7A5;
+}
+/* header part design end */
+
+/*------------------- sidebar part design start------------------------------------------- */
+.side-part-main .side-part-1{
+  margin-top: 25px;
+}
+.side-part-main .side-part1-inside{
+    width: 250px;
+    margin-top: 55px;
+}
+.side-part-main .side-part1-text1{
+  font-weight: 400;
+  
+}
+.side-part-main .side-part-underline{
+  border-bottom: 4px solid #704AEC;
+  width: 50px;
+}
+
+.side-part-main .side-part-2{
+  margin-top: 25px;
+}
+.side-part-main .side-part2-inside{
+    display: flex;
+    width: 320px;
+    background-color: #FBFBFB;
+    padding: 25px 10px 25px 20px;
+    margin-top: 30px;
+}
+.side-part-main .side-part2-text{
+  margin-top: 10px;
+  margin-left: 10px; 
+}
+
+/*------------------- sidebar part design end------------------------------------------- */
+
+/*------------------- feature design start------------------------------------------- */
+.feature-main .feature-single-part{
+  margin-top: 30px;
+  border-bottom: 1px solid #c5b9b9;
+}
+.feature-main .feature-single-inside{
+  display: flex;
+  margin-bottom: 20px;
+}
+.feature-main .feature-single-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #F9F9F9;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+.feature-main .feature-single-h6{
+  margin-top: 16px;
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: 400;
+}
+/*------------------- feature design end------------------------------------------- */
+
+/* ------------------------------------Middle part Design Start -----------------------------------------------*/
+
+/* ---material ui tab design--- */
+header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorDefault.MuiPaper-elevation4{
+  background-color: #fff;
+  box-shadow: none;  
+}
+span.MuiTab-wrapper{
+  color: #000;
+  font-weight: 600;
+}
+.MuiTab-textColorPrimary{
+  color: #000000;
+}
+.MuiTab-textColorPrimary.Mui-selected{
+  color: #000000;
+}
+/* ---material ui tab design end--- */
+
+.middle-content .middle-tab-content{
+  position: relative;
+  /* bottom: 100px; */
+}
+
+/*---- about part design part start ----*/
+.about-main .about-header-text1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(143, 137, 137);
+}
+.about-main .about-header-text2 .text2-h1{
+  color: #000000;
+  font-weight: bold;
+} 
+/* middle part 1 */
+.about-main .about-middle-part1{
+  margin-top: 25px;
+}
+.about-main .about-middle-img1{
+  width: 400px;
+}
+.about-main .about-middle-text1{
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.about-main .about-middle-text1-h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+/* middle part 2 */
+.about-main .about-middle-part2{
+  margin-top: 35px;
+}
+.about-main .about-middle-img2{
+  width: 400px;
+  margin-left: 10px;
+}
+.about-main .about-middle-text2{
+  margin-top: 35px;
+  
+}
+.about-main .about-middle-text2-h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+/*---- about part design part end ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design start*/
+@media (max-width: 560px) {
+  .header-back-img{
+    height: 360px;
+  }
+  .header-inside-content{
+    padding-top: 50px;
+    margin-left: 53px;
+  }
+  .header-inside-content .header-text-middle{
+    color: rgb(7, 6, 6);
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 65px;
+  }
+  .header-inside-content .header-button-part{
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .header-inside-content .header-button-part .text-default-part{
+    width: 90px;
+    height: 55px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 35px;
+  }
+}
+
