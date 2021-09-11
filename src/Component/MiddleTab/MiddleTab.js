@@ -8,6 +8,9 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import AboutPart from './AboutPart';
 import Feature from './Feature';
+import LearningOutCome from './LearningOutCome';
+import Faqs from './Faqs';
+import Address from './Address';
 
 
 const MiddleTab = () => {
@@ -87,13 +90,13 @@ const MiddleTab = () => {
             <Feature/>
         </TabPanel>
         <TabPanel value={value} index={2}>
-            Item Three
+            <LearningOutCome/>
         </TabPanel>
         <TabPanel value={value} index={3}>
-            Item Four
+            <Faqs/>
         </TabPanel>
         <TabPanel value={value} index={4}>
-            Item Five
+            <Address/>
         </TabPanel>
         {/* <TabPanel value={value} index={5}>
             Item Six
