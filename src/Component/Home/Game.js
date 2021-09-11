@@ -5,7 +5,7 @@ import MiddleTab from '../MiddleTab/MiddleTab';
 import SidePart from '../SidePart/SidePart';
 import laravelFeatured from '../../Images/laravel-featured.png';
 
-const Home = () => {
+const Game = () => {
     return (
         <div>
             <div>
@@ -30,7 +30,7 @@ const Home = () => {
                                 </Card>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
-                                <h1 className="header-text-middle">Laravel Class</h1>
+                                <h1 className="header-text-middle">Game Development</h1>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
                                 <div className="header-button-part">
@@ -62,4 +62,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Game;

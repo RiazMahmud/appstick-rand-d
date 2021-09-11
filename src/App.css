@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 .App {
   text-align: center;
 }
@@ -37,7 +38,7 @@
   }
 }
 
-/* front-end design start */
+/*---------------------------------------------- front-end design start-------------------------------------------------------- */
 .navbar-light .navbar-nav .nav-link{
   font-size: 18px;
   color: #262626;
@@ -125,6 +126,9 @@
 /*------------------- sidebar part design end------------------------------------------- */
 
 /*------------------- feature design start------------------------------------------- */
+.feature-main{
+  font-family: 'Urbanist', sans-serif;
+}
 .feature-main .feature-single-part{
   margin-top: 30px;
   border-bottom: 1px solid #c5b9b9;
@@ -191,11 +195,9 @@ span.MuiTab-wrapper{
   width: 400px;
 }
 .about-main .about-middle-text1{
-  margin-top: 35px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .about-main .about-middle-text1-h2{
-  font-size: 32px;
   font-weight: 700;
 }
 /* middle part 2 */
@@ -206,18 +208,62 @@ span.MuiTab-wrapper{
   width: 400px;
   margin-left: 10px;
 }
-.about-main .about-middle-text2{
-  margin-top: 35px;
-  
-}
+
 .about-main .about-middle-text2-h2{
-  font-size: 32px;
   font-weight: 700;
 }
-
-
 /*---- about part design part end ----*/
 
+ /*--------------------------------------------- contact page design start ------------------------------------------*/
+ 
+ .contact-main .contact-main-header{   
+  font-family: 'Urbanist', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+ .contact-main .contact-main-header-h2{
+   font-weight: bold;
+   font-size: 35px;
+ }
+ .contact-main .contact-submit-btn{
+  margin-top: 25px;
+  color: white;
+  background-color: darkblue;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  font-weight: 800;
+ }
+ /*--------------------------------------------- contact page design end ------------------------------------------*/
+ 
+ .map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}
+ 
+ .learningOutcome-main{   
+  font-family: 'Urbanist', sans-serif;
+ }
+ .faq-main{
+  font-family: 'Urbanist', sans-serif;
+ }
+ .requirement-main{
+  font-family: 'Urbanist', sans-serif;
+ }
+ .address-main{
+  font-family: 'Urbanist', sans-serif;
+ }
+ 
 
 
 
@@ -233,7 +279,8 @@ span.MuiTab-wrapper{
 
 
 
-/* responsive design start*/
+
+/*--------------------------------------------------------- responsive design start------------------------------------*/
 @media (max-width: 560px) {
   .header-back-img{
     height: 360px;
@@ -261,6 +308,48 @@ span.MuiTab-wrapper{
     text-align: center;
     padding-top: 10px;
     margin-left: 35px;
+  }
+
+  /*------------------- sidebar part design start------------------------------------------- */
+  .side-part-main .side-part-1{
+    margin-top: 25px;
+    padding-left: 68px;
+  }
+  .side-part-main .side-part-2{
+    margin-top: 25px;
+    padding-left: 68px;
+  }
+  /*------------------- sidebar part design end------------------------------------------- */
+
+  /*--------------------- about part design start----------------------------------- */
+  .about-main .about-middle-text1{
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .about-main .about-middle-img1{
+    width: 300px;
+  }
+  .about-main .about-middle-img2{
+    width: 300px;
+  }
+  /*--------------------- about part design end----------------------------------- */
+
+  .middle-content .middle-tab-content{
+    position: relative;
+    width: 395px;
+    /* bottom: 100px; */
+  }
+
+  .contact-main .contact-main-header-h2{
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .header-back-img{
+    width: 400px;
   }
 }
 

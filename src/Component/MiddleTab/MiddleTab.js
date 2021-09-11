@@ -8,6 +8,11 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import AboutPart from './AboutPart';
 import Feature from './Feature';
+import LearningOutCome from './LearningOutCome';
+import Faqs from './Faqs';
+import Address from './Address';
+import Contact from './Contact';
+import RequirementResponsiblity from './RequirementResponsiblity';
 
 
 const MiddleTab = () => {
@@ -76,8 +81,8 @@ const MiddleTab = () => {
             <Tab label="LearningOutcome" {...a11yProps(2)} />
             <Tab label="FAQs" {...a11yProps(3)} />
             <Tab label="Location" {...a11yProps(4)} />
-            {/* <Tab label="Item Six" {...a11yProps(5)} />
-            <Tab label="Item Seven" {...a11yProps(6)} /> */}
+            <Tab label="Requirements & Responsibilities" {...a11yProps(5)} />
+            <Tab label="Contacts" {...a11yProps(6)} />
             </Tabs>
         </AppBar>
         <TabPanel value={value} index={0}>
@@ -87,20 +92,20 @@ const MiddleTab = () => {
             <Feature/>
         </TabPanel>
         <TabPanel value={value} index={2}>
-            Item Three
+            <LearningOutCome/>
         </TabPanel>
         <TabPanel value={value} index={3}>
-            Item Four
+            <Faqs/>
         </TabPanel>
         <TabPanel value={value} index={4}>
-            Item Five
+            <Address/>
         </TabPanel>
-        {/* <TabPanel value={value} index={5}>
-            Item Six
+        <TabPanel value={value} index={5}>
+            <RequirementResponsiblity/>
         </TabPanel>
         <TabPanel value={value} index={6}>
-            Item Seven
-        </TabPanel> */}
+            <Contact/>
+        </TabPanel>
     </div>
     );
 };

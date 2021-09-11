@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container,Navbar,Nav,Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from '../../Images/logo.png';
 
 const UpperNavBar = () => {
@@ -15,7 +16,7 @@ const UpperNavBar = () => {
                     <Nav className="ms-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#link">Web Development</Nav.Link>
-                        <Nav.Link href="#home">Robotic Development</Nav.Link>
+                        <Nav.Link href="#home"><Link to="/game" style={{textDecoration:'none',color:'#262626'}}>Game Development</Link></Nav.Link>
                         <Nav.Link href="#link">Ui/Ux Design</Nav.Link>                        
                     </Nav>
                     </Navbar.Collapse>
