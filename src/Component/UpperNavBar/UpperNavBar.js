@@ -14,10 +14,9 @@ const UpperNavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Web Development</Nav.Link>
+                        <Nav.Link href="#link"><Link to="/laravel" style={{textDecoration:'none',color:'#262626'}}>Web Development</Link></Nav.Link>
                         <Nav.Link href="#home"><Link to="/game" style={{textDecoration:'none',color:'#262626'}}>Game Development</Link></Nav.Link>
-                        <Nav.Link href="#link">Ui/Ux Design</Nav.Link>                        
+                        <Nav.Link href="#link"><Link to="/ux-ui" style={{textDecoration:'none',color:'#262626'}}>Ui/Ux Design</Link></Nav.Link>                        
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

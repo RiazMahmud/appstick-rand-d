@@ -1,13 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Component/Home/Home';
+import LaravelDevelopment from './Component/Home/LaravelDevelopment';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import Game from './Component/Home/Game';
+import GameDevelopment from './Component/Home/GameDevelopment';
+import RegisterForm from './Component/RegisterForm/RegisterForm';
+import UxUiDesign from './Component/Home/UxUiDesign';
 
 function App() {
   return (
@@ -15,10 +17,19 @@ function App() {
     <Router>
       <Switch>
           <Route path="/game">
-            <Game/>
+            <GameDevelopment/>
+          </Route>
+          <Route path="/ux-ui">
+            <UxUiDesign/>
+          </Route>
+          <Route path="/register">
+            <RegisterForm/>
+          </Route>
+          <Route path="/laravel">
+            <LaravelDevelopment />
           </Route>          
           <Route path="/">
-            <Home />
+            <LaravelDevelopment />
           </Route>
         </Switch>
     </Router>

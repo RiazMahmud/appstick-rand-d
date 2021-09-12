@@ -45,8 +45,24 @@
   margin-left: 10px;
   font-weight: 600;
 }
-.header-back-img{
+.laravel-header-back-img{
   background-image: linear-gradient( rgba(10, 8, 8, 0.219), rgba(14, 3, 3, 0.377) ), url(./Images/_Group_.png);     
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 460px;
+  width: 100%;
+}
+.game-header-back-img{
+  background-image: linear-gradient( rgba(10, 8, 8, 0.219), rgba(14, 3, 3, 0.377) ), url(./Images/Unreal\ Engine_Course.png);     
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 460px;
+  width: 100%;
+}
+.uxui-header-back-img{
+  background-image: linear-gradient( rgba(10, 8, 8, 0.219), rgba(14, 3, 3, 0.377) ), url(./Images/figma_Course.png);     
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,7 +128,7 @@
   margin-top: 25px;
 }
 .side-part-main .side-part2-inside{
-    display: flex;
+    /* display: flex; */
     width: 320px;
     background-color: #FBFBFB;
     padding: 25px 10px 25px 20px;
@@ -172,8 +188,18 @@ span.MuiTab-wrapper{
 }
 /* ---material ui tab design end--- */
 
-.middle-content .middle-tab-content{
+.middle-content .laravel-middle-tab-content{
   position: relative;
+  /* bottom: 100px; */
+}
+.middle-content .game-middle-tab-content{
+  position: relative;
+  bottom: 70px;
+  /* bottom: 100px; */
+}
+.middle-content .uxui-middle-tab-content{
+  position: relative;
+  bottom: 50px;
   /* bottom: 100px; */
 }
 
@@ -218,8 +244,11 @@ span.MuiTab-wrapper{
  
  .contact-main .contact-main-header{   
   font-family: 'Urbanist', sans-serif;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+ }
+ .contact-main label.form-label{
+   font-weight: bold;
  }
  .contact-main .contact-main-header-h2{
    font-weight: bold;
@@ -282,7 +311,13 @@ span.MuiTab-wrapper{
 
 /*--------------------------------------------------------- responsive design start------------------------------------*/
 @media (max-width: 560px) {
-  .header-back-img{
+  .laravel-header-back-img{
+    height: 360px;
+  }
+  .game-header-back-img{
+    height: 360px;
+  }
+  .uxui-header-back-img{
     height: 360px;
   }
   .header-inside-content{
@@ -317,7 +352,7 @@ span.MuiTab-wrapper{
   }
   .side-part-main .side-part-2{
     margin-top: 25px;
-    padding-left: 68px;
+    padding-left: 48px;
   }
   /*------------------- sidebar part design end------------------------------------------- */
 
@@ -334,10 +369,20 @@ span.MuiTab-wrapper{
   }
   /*--------------------- about part design end----------------------------------- */
 
-  .middle-content .middle-tab-content{
+  .middle-content .laravel-middle-tab-content{
     position: relative;
     width: 395px;
     /* bottom: 100px; */
+  }
+  .middle-content .game-middle-tab-content{
+    position: relative;
+    width: 395px;
+    bottom: 5px;
+  }
+  .middle-content .uxui-middle-tab-content{
+    position: relative;
+    width: 395px;
+    bottom: 5px;
   }
 
   .contact-main .contact-main-header-h2{
@@ -348,8 +393,14 @@ span.MuiTab-wrapper{
 
 
 @media (max-width: 375px) {
-  .header-back-img{
-    width: 400px;
+  .laravel-header-back-img{
+    width: 407px;
+  }
+  .game-header-back-img{
+    width: 407px;
+  }
+  .uxui-header-back-img{
+    width: 407px;
   }
 }
 
