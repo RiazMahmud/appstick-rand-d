@@ -10,11 +10,10 @@ const RequirementResponsiblity = () => {
                         <h2>Requirements</h2>
                         <div className="mt-4">
                             <ul>
-                                <li>Basic Concept on oop (PHP)</li>
-                                <li>Basic concept on database (MYSQL)</li>
-                                <li>Basic concept on HTML, CSS</li>
-                                <li>Basic concept on Javascript/JQuery</li>
-                                <li>server (Xampp/Wamp)</li> 
+                                <li>Basic concept on any kind of IDE</li>
+                                <li>Basic concept on C++</li>
+                                <li>Basic concept on Mathematics and Physics</li>
+                                <li>Problem solving skills</li>
                             </ul>
                         </div>
                     </div>

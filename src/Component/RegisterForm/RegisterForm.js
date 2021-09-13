@@ -6,21 +6,21 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import { toast } from "react-toastify";
 import UpperNavBar from '../UpperNavBar/UpperNavBar';
+import success from '../../Images/success.png';
 
 
 const RegisterForm = () => {
     const { register, handleSubmit,formState: { errors }, reset } = useForm();
-    const [course, setCourse] = useState(""); 
-    // const [gender, setGender] = useState("");
+    const [course, setCourse] = useState("");
+    const [message, setMessage] = useState("");
 
     const addManager = (data) =>{
         console.log(data);
         ContactFormDataAccess.registerFromSubmit(data.Name, data.InstitutionName, data.Subject, data.Session, data.BirthDay, data.Address, data.Email, data.Phone,course,data.gender,)
         .then((data) => {
             if(data.success===true){
-                // alert(data.message);
-                toast.success(data.message);
-                
+                setMessage(data.message)
+                toast.success(data.message);                                
             }
             else{
                 toast.error(data.message);
@@ -33,9 +33,15 @@ const RegisterForm = () => {
         <div className="contact-main">
             <UpperNavBar/>
             <ToastContainer />
-            <div style={{backgroundColor:'#B8B8B8',paddingBottom:'30px'}}>
-                <Container>
-                    <div className="d-flex justify-content-center">
+            {
+                message !== '' ?
+                <div style={{height: '100vh',display:'flex',justifyContent:'center',backgroundColor:'#B8B8B8'}}>
+                    <img src={success} style={{marginTop:'100px',width:'500px',height:'500px'}}/>
+                </div>    
+                :
+            <div style={{backgroundColor:'#B8B8B8',paddingBottom:'30px'}}>                
+                <Container>                    
+                    <div className="d-flex justify-content-center">                    
                         <Col lg={6} md={6} >                              
                             <div>
                                 <div className="contact-main-header" style={{borderBottom: "2px solid #000"}}>
@@ -47,10 +53,7 @@ const RegisterForm = () => {
                                         <Form.Group className="mb-3">
                                             <Form.Label>Name</Form.Label>
                                             <Form.Control type="text" className="signup-input-field" {...register("Name", {required: true, maxLength: 80})} />
-                                            <p className="text-danger">{errors.Name && "Name is required"}</p>
-                                            {/* <Form.Text className="text-muted">
-                                                Name
-                                            </Form.Text> */}
+                                            <p className="text-danger">{errors.Name && "Name is required"}</p>                                            
                                         </Form.Group>
                                         <Row>
                                             <Form.Group as={Col}>
@@ -111,7 +114,7 @@ const RegisterForm = () => {
                                                 <option value="">Please Select</option>
                                                 <option value="Web Development">Web Development</option>
                                                 <option value="Game Development">Game Development</option>
-                                                <option value="Ux/UiDesign">Ux/Ui Design</option>
+                                                <option value="Ux/UiDesign">UI/UX Design</option>
                                             </Form.Select>
                                         </Form.Group>                                                        
                                         <div className="d-flex">
@@ -122,10 +125,11 @@ const RegisterForm = () => {
                                     </form>
                                 </div>
                             </div>
-                        </Col>    
+                        </Col> 
                     </div>
-                </Container>
+                </Container>                
             </div>
+            }
         </div>
     );
 };

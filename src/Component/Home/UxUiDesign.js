@@ -5,6 +5,7 @@ import UXUiMiddleTab from '../UxUiMiddleTab/MiddleTab';
 import UxUiSidePart from '../SidePart/UxUISidePart';
 import uxui from '../../Images/uxui (1).png'
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const UxUiDesign = () => {
     return (
@@ -22,24 +23,21 @@ const UxUiDesign = () => {
                                     <Card.Body className="text-center">
                                         <Card.Title>
                                             <div className="d-flex ms-5">
-                                                <h6 className="text-secondary ms-1">Seats Available :</h6>
-                                                <h6>19</h6>
+                                                <h6 className="text-secondary ms-1">Seats Available:</h6>
+                                                <h6 style={{fontWeight:'600', color: '#000'}}>16</h6>
                                             </div> 
                                         </Card.Title>                                        
-                                        <Button variant="outline-primary">Onsite</Button>
+                                        <Button variant="outline-primary">Onsite Class</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
-                                <h1 className="header-text-middle">Ux/Ui Design</h1>
+                                <h1 className="header-text-middle mt-4">Professional Course On UI/UX Design</h1>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
-                                <div className="header-button-part">
-                                    <div className="text-default-part">
-                                        <h2>₹25</h2>
-                                    </div>
+                                <div className="header-button-part">                                    
                                     <Link to="/register" style={{textDecoration:'none',color:'#fff'}}>
-                                        <button className="log-in-btn">REGISTRATION FORM</button>
+                                        <button className="log-in-btn">REGISTRATION</button>
                                     </Link>    
                                 </div>                                
                             </Col>
@@ -59,7 +57,8 @@ const UxUiDesign = () => {
                             </Col>
                         </Row>
                     </Container>             
-                </div>                
+                </div>
+                <div><Footer/></div>                
             </div>
         </div>
     );

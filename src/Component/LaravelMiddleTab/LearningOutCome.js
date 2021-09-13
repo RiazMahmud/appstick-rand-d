@@ -46,8 +46,8 @@ const LearningOutCome = () => {
                                 and university assignment and most importantly you will get our support within 24 hours.
                         </p>
                         <div>
-                            <h5 className="text-bold mb-3">Besides you will be able to understand the following things:</h5>
-                            <ul>
+                            <h5 className="text-bold mb-3"><strong>Besides you will be able to understand the following things:</strong></h5>
+                            <ul style={{listStyleType: "circle"}}>
                                 {
                                     list.map((item, index) => 
                                         <li key={index}>{item}</li>

@@ -5,6 +5,7 @@ import LaravelMiddleTab from '../LaravelMiddleTab/MiddleTab';
 import LaravelSidePart from '../SidePart/LaravelSidePart';
 import laravelFeatured from '../../Images/laravel-featured.png';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const LaravelDevelopment = () => {
     return (
@@ -22,24 +23,21 @@ const LaravelDevelopment = () => {
                                     <Card.Body className="text-center">
                                         <Card.Title>
                                             <div className="d-flex ms-5">
-                                                <h6 className="text-secondary ms-1">Seats Available :</h6>
-                                                <h6>19</h6>
+                                                <h6 className="text-secondary ms-1">Seats Available: </h6>
+                                                <h6 style={{fontWeight:'600', color: '#000'}}>32</h6>
                                             </div> 
                                         </Card.Title>                                        
-                                        <Button variant="outline-primary">Onsite</Button>
+                                        <Button variant="outline-primary">Onsite Class</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
-                                <h1 className="header-text-middle">Laravel Class</h1>
+                                <h1 className="header-text-middle">Laravel professional Course</h1>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
                                 <div className="header-button-part">
-                                    <div className="text-default-part">
-                                        <h2>₹25</h2>
-                                    </div>
                                     <Link to="/register" style={{textDecoration:'none',color:'#fff'}}>
-                                        <button className="log-in-btn">REGISTRATION FORM</button>
+                                        <button className="log-in-btn">REGISTRATION</button>
                                     </Link>
                                 </div>                                
                             </Col>
@@ -59,9 +57,10 @@ const LaravelDevelopment = () => {
                             </Col>
                         </Row>
                     </Container>             
-                </div>                
+                </div>
+                <div><Footer/></div>                
             </div>
-        </div>
+        </div>    
     );
 };
 

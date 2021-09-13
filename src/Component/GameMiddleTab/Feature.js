@@ -15,9 +15,9 @@ const Feature = () => {
                     <div className="feature-single-icon">
                         <AccessTimeIcon/>
                     </div>
-                    <h6 className="feature-single-h6">Duration : 4 Months</h6>
+                    <h6 className="feature-single-h6">Duration: 5 Months</h6>
                 </div>
-                <p>The course is designed for 4 months duration.</p>
+                <p>The course is designed for 5 months duration.</p>
             </div>
             <div className="feature-single-part">
                 <div className="feature-single-inside">
@@ -26,7 +26,7 @@ const Feature = () => {
                     </div>
                     <h6 className="feature-single-h6">Office Desk: Individual</h6>
                 </div>
-                <p>We will provide an individual workstation (well decorated desk, desktop, official facilities) for every single learner</p>
+                <p>We will provide an individual workstation (well decorated desk, Gaming desktop, AR,VR tools and official facilities) for every single learner</p>
             </div>
             <div className="feature-single-part">
                 <div className="feature-single-inside">
@@ -66,18 +66,18 @@ const Feature = () => {
                     <div className="feature-single-icon">
                         <GroupAddIcon/>
                     </div>
-                    <h6 className="feature-single-h6">Available Seats: 32 Seats</h6>
+                    <h6 className="feature-single-h6">Available Seats: 16 Seats</h6>
                 </div>
-                <p>Now we are offering only 32 seats for 32 individuals.</p>
+                <p>Now we are offering only 16 seats for 16 individuals.</p>
             </div>
             <div className="feature-single-part">
                 <div className="feature-single-inside">
                     <div className="feature-single-icon">
                         <MoveToInboxIcon/>
                     </div>
-                    <h6 className="feature-single-h6">Price: 20000 BDT</h6>
+                    <h6 className="feature-single-h6">Price: 25000 BDT</h6>
                 </div>
-                <p>The course fee we offered is 20000 BDT. One learner can enroll in the course just by paying 50% (10000 BDT) downpayment. After that, a maximum of 2 month (Each month 5000 BDT) will be provided to pay the rest of the amount. .</p>
+                <p>The course fee we offered is 25000 BDT. One learner can enroll in the course just by paying 40% (10000 BDT) downpayment. After that, a maximum of 3 month (Each month 5000 BDT) will be provided to pay the rest of the amount.</p>
             </div>
            
         </div>

@@ -10,11 +10,7 @@ const RequirementResponsiblity = () => {
                         <h2>Requirements</h2>
                         <div className="mt-4">
                             <ul>
-                                <li>Basic Concept on oop (PHP)</li>
-                                <li>Basic concept on database (MYSQL)</li>
-                                <li>Basic concept on HTML, CSS</li>
-                                <li>Basic concept on Javascript/JQuery</li>
-                                <li>server (Xampp/Wamp)</li> 
+                                <li>Basic Concept of Computer and Internet </li>                                
                             </ul>
                         </div>
                     </div>
@@ -22,11 +18,11 @@ const RequirementResponsiblity = () => {
                         <h2>Responsibilities</h2>
                         <div className="mt-4">
                             <ul>
-                                <li>Excellent communication skills, both written and verbal</li>
-                                <li>Should work part time (a maximum of 12 hours/week)</li>
-                                <li>ability to carry out instruction furnished in written, oral or diagram form</li>
+                                <li>Need to attend every class. </li>
+                                <li>Need to participate project task</li>
+                                <li>Good Communication skills, both written and verbal</li>
                                 <li>document and test developed software applications </li>
-                                <li>Assess new application ideas </li> 
+                                <li>Should work part time </li> 
                             </ul>
                         </div>
                     </div>

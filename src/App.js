@@ -16,16 +16,16 @@ function App() {
     
     <Router>
       <Switch>
-          <Route path="/game">
+          <Route path="/game-development">
             <GameDevelopment/>
           </Route>
-          <Route path="/ux-ui">
+          <Route path="/ui-ux-design">
             <UxUiDesign/>
           </Route>
           <Route path="/register">
             <RegisterForm/>
           </Route>
-          <Route path="/laravel">
+          <Route path="/web-development">
             <LaravelDevelopment />
           </Route>          
           <Route path="/">
