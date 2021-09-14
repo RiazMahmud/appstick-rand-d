@@ -35,17 +35,17 @@ const RegisterForm = () => {
             <ToastContainer />
             {
                 message !== '' ?
-                <div style={{height: '100vh',display:'flex',justifyContent:'center',backgroundColor:'#B8B8B8'}}>
+                <div style={{height: '100vh',display:'flex',justifyContent:'center',backgroundColor:'#DEE1E6'}}>
                     <img src={success} style={{marginTop:'100px',width:'500px',height:'500px'}}/>
                 </div>    
                 :
-            <div style={{backgroundColor:'#B8B8B8',paddingBottom:'30px'}}>                
+            <div style={{backgroundColor:'#DEE1E6',paddingBottom:'30px'}}>                
                 <Container>                    
                     <div className="d-flex justify-content-center">                    
                         <Col lg={6} md={6} >                              
                             <div>
                                 <div className="contact-main-header" style={{borderBottom: "2px solid #000"}}>
-                                    <h2 className="contact-main-header-h2">Student Registration Form</h2>
+                                    <h2 className="contact-main-header-h2">Registration Form</h2>
                                     <h6 className="text-dark">Fill out the form carefully for registration</h6>
                                 </div>
                                 <div>

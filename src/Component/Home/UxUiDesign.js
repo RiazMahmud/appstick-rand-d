@@ -27,7 +27,9 @@ const UxUiDesign = () => {
                                                 <h6 style={{fontWeight:'600', color: '#000'}}>16</h6>
                                             </div> 
                                         </Card.Title>                                        
-                                        <Button variant="outline-primary">Onsite Class</Button>
+                                        <Link to="/register" style={{textDecoration:'none',color:'#fff'}}>                                       
+                                            <Button variant="outline-primary">Onsite Class</Button>
+                                        </Link>
                                     </Card.Body>
                                 </Card>
                             </Col>

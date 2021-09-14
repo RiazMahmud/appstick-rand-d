@@ -22,11 +22,11 @@ const AboutPart = () => {
                             <li>Making web applications faster</li>
                             <li>Configuration error and exception handling</li>
                             <li>Automation testing work.</li>
-                            <li>URL Routing Configuration is very high in Laravel.</li>
+                            <li>URL Routing Configuration is very high in Laravel</li>
                             <li>Scheduling tasks configuration and management</li>
                             <li>It has a huge community</li>
-                            <li>Unlimited resources.</li>
-                            <li>Most importantly it's very easy to get a job if you have Laravel skills.</li>
+                            <li>Unlimited resources</li>
+                            <li>Most importantly it's very easy to get a job if you have Laravel skills</li>
                         </ul>
                     </div>        
                 </div>                
@@ -60,7 +60,7 @@ const AboutPart = () => {
                                     you to get a job with this new skill. You will be able to start work for your client. 
                                     You will also get a chance to be hired in our software firm.
                                     Add this project in your portfolio and university assignment and most importantly 
-                                    you will get our support within 24 hours..
+                                    you will get our support within 24 hours.
                                 </p>
                             </div>
                         </Col>

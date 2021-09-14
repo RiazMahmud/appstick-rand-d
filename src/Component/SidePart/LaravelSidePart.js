@@ -17,7 +17,7 @@ const LaravelSidePart = () => {
                 <div className="side-part-underline"></div>
                 <div className="side-part1-inside">
                     <Image className="rounded-circle ms-5 ps-2" src={Biplob} style={{width:'120px', height:'120px'}}/>
-                    <p className="text-center mt-5 text-secondary">My name is Biplab Sarkar and I am a Senior Consultant for Appstick. I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting technological advances that happen every day. I graduated from the Khulna University with a Bachelor's Degree in Computer Science. I have more than 5+ years of experience in Software Development.</p>
+                    <p className="mt-5 text-secondary" style={{textAlign:'left'}}>My name is Biplab Sarkar and I am a Senior Consultant for Appstick. I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting technological advances that happen every day. I graduated from the Khulna University with a Bachelor's Degree in Computer Science. I have more than 5+ years of experience in Software Development.</p>
                     <div style={{display:'flex',marginTop: '10px',color:'#1E1E1E',justifyContent:'center'}}>
                         <div style={{width:'40px', height:'40px',borderRadius:'25px',backgroundColor:'lightgrey',paddingTop:'5px',paddingLeft:'7px',cursor:'pointer'}}>
                             <a href="https://www.facebook.com/biplab.sarker.9" target="_blank" style={{color:'#1E1E1E'}}><FacebookIcon/></a>

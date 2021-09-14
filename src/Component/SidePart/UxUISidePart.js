@@ -1,6 +1,5 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import studentImg from '../../Images/studentImg.jpg';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import LanguageIcon from '@material-ui/icons/Language';
@@ -15,7 +14,7 @@ const UxUISidePart = () => {
                 <div className="side-part-underline"></div>
                 <div className="side-part1-inside">
                     <Image className="rounded-circle ms-5 ps-2" src={anamul} style={{width:'120px', height:'120px'}}/>
-                    <p className="text-center mt-5 text-secondary">
+                    <p className="mt-5 text-secondary" style={{textAlign:'left'}}>
                         I have 15+ years of experience in creating Graphics Design and UX/UI Design.
                          Expertized in design thinking, wireframing, UX interactive prototyping, final 
                          UI graphics production. Skilled in using Figma, Adobe Photoshop, Adobe Illustrator. 

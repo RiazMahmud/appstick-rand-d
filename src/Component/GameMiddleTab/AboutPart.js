@@ -75,7 +75,7 @@ const AboutPart = () => {
                                 how to handle project bugs, and how to collaborate with teams. This complete project will
                                 help you to get a job with this new skill. You will be able to start work for your client.
                                 You will also get a chance to be hired in our software firm. Add this project in your portfolio
-                                and university assignment and most importantly you will get our support within 24 hours
+                                and university assignment and most importantly you will get our support within 24 hours.
                                 </p>
                             </div>
                         </Col>

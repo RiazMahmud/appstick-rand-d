@@ -26,8 +26,10 @@ const LaravelDevelopment = () => {
                                                 <h6 className="text-secondary ms-1">Seats Available: </h6>
                                                 <h6 style={{fontWeight:'600', color: '#000'}}>32</h6>
                                             </div> 
-                                        </Card.Title>                                        
-                                        <Button variant="outline-primary">Onsite Class</Button>
+                                        </Card.Title>
+                                        <Link to="/register" style={{textDecoration:'none',color:'#fff'}}>                                       
+                                            <Button variant="outline-primary">Onsite Class</Button>
+                                        </Link>    
                                     </Card.Body>
                                 </Card>
                             </Col>
