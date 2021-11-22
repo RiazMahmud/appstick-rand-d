@@ -47,7 +47,7 @@ const LearningOutCome = () => {
                         </p>
                         <div>
                             <h5 className="text-bold mb-3"><strong>Besides you will be able to understand the following things:</strong></h5>
-                            <ul style={{listStyleType: "circle"}}>
+                            <ul style={{listStyleType: "square"}}>
                                 {
                                     list.map((item, index) => 
                                         <li key={index}>{item}</li>

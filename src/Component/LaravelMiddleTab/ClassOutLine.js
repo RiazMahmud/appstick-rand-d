@@ -7,12 +7,12 @@ const ClassOutLine = () => {
     return (
         <div>
             <Container>
-                <Col>
+                <Col lg={12} md={12} sm={12} xs={12}>
                     <div>
                         <Row>
                             {
                               ClassOutLineFakeData.map(single => 
-                                <Col lg={6} md={6}>
+                                <Col lg={6} md={6}  sm={12} xs={12}>
                                     <h6 style={{fontWeight: 'bold',borderBottom:'1px solid gray'}}>{single.header}</h6>
                                     <ul>
                                         {single.list.map(singleList => 

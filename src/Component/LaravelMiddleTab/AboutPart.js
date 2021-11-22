@@ -1,12 +1,11 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import LaravelLandingpage1 from '../../Images/Laravel Landing page photo/Laravel Landing_page1.png';
-import LaravelLandingpage2 from '../../Images/Laravel Landing page photo/Laravel Landing_page2.png';
+import { Col, Container } from 'react-bootstrap';
 
 const AboutPart = () => {
     return (
         <div className="about-main">
             <Container fluid>
+            <Col lg={12} md={12} sm={12} xs={12}>
                 <div className="about-header-text2">
                   <h2 className="text2-h1">LARAVEL</h2>
                   <p className="about-header-text1">Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony. Wikipedia 
@@ -14,7 +13,7 @@ const AboutPart = () => {
                     Employers are asking for this skill for all web programming jobs and in this course we have put together all of them, to give you the best chance of landing that job; or taking it to the next level.</p>
                 </div>
                 <div className="about-header-text1">
-                    <h5 className="text-dark"><strong>Why Should We Learn Laravel ?</strong></h5>
+                    <h4 className="text-dark"><strong>Why should we learn Laravel ?</strong></h4>
                     <div>
                         <ul>
                             <li>Laravel provides less code functionality</li>
@@ -29,13 +28,10 @@ const AboutPart = () => {
                             <li>Most importantly it's very easy to get a job if you have Laravel skills</li>
                         </ul>
                     </div>        
-                </div>                
+                </div>
+                </Col>                
                 <div className="about-middle-part1">
-                    <Row>
-                        <Col lg={6} md={6} sm={12} xs={12}>
-                            <Image className="about-middle-img1" src={LaravelLandingpage1} />
-                        </Col>
-                        <Col lg={6} md={6} sm={12} xs={12}>
+                    <Col lg={12} md={12} sm={12} xs={12}>
                             <div className="about-middle-text1">
                                 <h4 className="about-middle-text1-h2">Why is Laravel so popular? </h4>
                                 <p className="text-secondary">
@@ -45,11 +41,10 @@ const AboutPart = () => {
                                 <p className="text-secondary">Besides, once you learn it, creating complex applications are easy to do, because thousands of other people have created code we can plug (packages) into our Laravel application to make it even better. </p>
                             </div>                            
                         </Col>
-                    </Row>
+                    
                 </div>
                 <div className="about-middle-part2">
-                    <Row>
-                        <Col lg={6} md={6} sm={12} xs={12}>
+                    <Col lg={12} md={12} sm={12} xs={12}>
                             <div className="about-middle-text2">
                                 <h4 className="about-middle-text2-h2">What is your benefit ?</h4>
                                 <p className="text-secondary">
@@ -63,11 +58,7 @@ const AboutPart = () => {
                                     you will get our support within 24 hours.
                                 </p>
                             </div>
-                        </Col>
-                        <Col lg={6} md={6} sm={12} xs={12}>
-                            <Image className="about-middle-img2" src={LaravelLandingpage2} />
-                        </Col>
-                    </Row>
+                        </Col>                   
                 </div>
             </Container>
         </div>

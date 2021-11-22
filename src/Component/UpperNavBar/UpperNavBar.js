@@ -16,7 +16,7 @@ const UpperNavBar = () => {
                     <Nav className="ms-auto">
                         <Nav.Link href="#link"><Link to="/web-development" style={{textDecoration:'none',color:'#262626'}}>Web Development</Link></Nav.Link>
                         <Nav.Link href="#home"><Link to="/game-development" style={{textDecoration:'none',color:'#262626'}}>Game Development</Link></Nav.Link>
-                        <Nav.Link href="#link"><Link to="/ui-ux-design" style={{textDecoration:'none',color:'#262626'}}>UI/UX Design</Link></Nav.Link>                        
+                        <Nav.Link href="#link"><Link to="/ui-ux-design" style={{textDecoration:'none',color:'#262626'}}>UI Design</Link></Nav.Link>                        
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

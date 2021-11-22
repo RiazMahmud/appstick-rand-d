@@ -46,7 +46,7 @@
   font-weight: 600;
 }
 .laravel-header-back-img{
-  background-image: linear-gradient( rgba(10, 8, 8, 0.376), rgba(14, 3, 3, 0.438) ), url(./Images/_Group_.png);     
+  background-image: linear-gradient( rgba(10, 8, 8, 0.376), rgba(14, 3, 3, 0.438) ), url(./Images/banner/laravel.png);     
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +54,7 @@
   width: 100%;
 }
 .game-header-back-img{
-  background-image: linear-gradient( rgba(10, 8, 8, 0.315), rgba(14, 3, 3, 0.383) ), url(./Images/Unreal\ Engine_Course.png);     
+  background-image: linear-gradient( rgba(10, 8, 8, 0.315), rgba(14, 3, 3, 0.383) ), url(./Images/banner/game.png);     
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +62,7 @@
   width: 100%;
 }
 .uxui-header-back-img{
-  background-image: linear-gradient( rgba(10, 8, 8, 0.219), rgba(14, 3, 3, 0.377) ), url(./Images/figma_Course.png);     
+  background-image: linear-gradient( rgba(10, 8, 8, 0.219), rgba(14, 3, 3, 0.377) ), url(./Images/banner/uiux.png);     
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@
   width: 100%;
 }
 .header-inside-content{
-  padding-top: 250px;
+  padding-top: 240px;
 }
 .header-inside-content .header-text-middle{
   color: white;
@@ -221,9 +221,9 @@ span.MuiTab-wrapper{
 .about-main .about-middle-img1{
   width: 400px;
 }
-.about-main .about-middle-text1{
-  margin-left: 25px;
-}
+/* .about-main .about-middle-text1{
+  margin-left: 5px;
+} */
 .about-main .about-middle-text1-h2{
   font-weight: 700;
 }
@@ -325,7 +325,12 @@ span.MuiTab-wrapper{
 
 
 /*--------------------------------------------------------- responsive design start------------------------------------*/
+
+
 @media (max-width: 560px) {
+  /* .main{
+    overflow-x: hidden;
+  } */
   .laravel-header-back-img{
     height: 360px;
   }
@@ -406,10 +411,17 @@ span.MuiTab-wrapper{
     font-weight: bold;
     font-size: 25px;
   }
+  .footer{
+    display: flex;
+    justify-content:center;
+  }
 }
 
 
+
+
 @media (max-width: 375px) {
+  
   .laravel-header-back-img{
     width: 407px;
   }
@@ -420,4 +432,5 @@ span.MuiTab-wrapper{
     width: 407px;
   }
 }
+
 

@@ -77,8 +77,8 @@ const MiddleTab = () => {
             >
             <Tab label="About" {...a11yProps(0)} />
             <Tab label="Features" {...a11yProps(1)} />
-            <Tab label="Course Out Line" {...a11yProps(2)} />
-            <Tab label="Learning Out Come" {...a11yProps(3)} />
+            <Tab label="Course Outline" {...a11yProps(2)} />
+            <Tab label="Learning Outcome" {...a11yProps(3)} />
             <Tab label="FAQs" {...a11yProps(4)} />
             <Tab label="Location" {...a11yProps(5)} />
             <Tab label="Requirements & Responsibilities" {...a11yProps(6)} />

@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 
 const LaravelDevelopment = () => {
     return (
-        <div>
+        <div className="main">
             <div>
                 <UpperNavBar/> 
             </div>
@@ -18,7 +18,7 @@ const LaravelDevelopment = () => {
                     <Container>
                         <Row className="justify-content-md-center">
                             <Col lg={4} md={4} sm={12} xs={12}>
-                                <Card style={{ width: '18rem' }} >
+                                <Card style={{ width: '18rem'}} >
                                     <Card.Img variant="top" src={laravelFeatured} />
                                     <Card.Body className="text-center">
                                         <Card.Title>
@@ -34,7 +34,7 @@ const LaravelDevelopment = () => {
                                 </Card>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
-                                <h1 className="header-text-middle">Laravel professional Course</h1>
+                                <h1 className="header-text-middle">Laravel Professional Course</h1>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
                                 <div className="header-button-part">
@@ -60,7 +60,7 @@ const LaravelDevelopment = () => {
                         </Row>
                     </Container>             
                 </div>
-                <div><Footer/></div>                
+                <div className="footer"><Footer/></div>                
             </div>
         </div>    
     );

@@ -5,7 +5,7 @@ const Address = () => {
     return (
         <div className="address-main">
             <Container fluid>
-                <Col>
+                <Col lg={12} md={12} sm={12} xs={12}>
                     <div className="mt-5 mb-5">
                         <h1>Address</h1>
                         <div className="mt-3 mb-3 ms-5">

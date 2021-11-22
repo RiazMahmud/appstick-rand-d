@@ -1,7 +1,5 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import Unrealenginelanding1 from '../../Images/Unreal Engine Landing page photo/Unreal_engine_landing1.png';
-import Unrealenginelanding2 from '../../Images/Unreal Engine Landing page photo/Unreal_engine_landing2.png';
+import { Col, Container } from 'react-bootstrap';
 
 const AboutPart = () => {
     return (
@@ -15,7 +13,7 @@ const AboutPart = () => {
                   </p>
                 </div>
                 <div className="about-header-text1">
-                    <h5 className="text-dark"><strong>Why Should We Learn Unreal Engine?</strong></h5>
+                    <h4 className="text-dark"><strong>Why should we learn Unreal Engine?</strong></h4>
                     <div>
                         <ul>
                             <li>Recreate the process for blocking out a 3D environment.</li>
@@ -42,11 +40,7 @@ const AboutPart = () => {
                     </div>        
                 </div>                
                 <div className="about-middle-part1">
-                    <Row>
-                        <Col lg={6} md={6} sm={12} xs={12}>
-                            <Image className="about-middle-img1" src={Unrealenginelanding1} />
-                        </Col>
-                        <Col lg={6} md={6} sm={12} xs={12}>
+                    <Col lg={12} md={12} sm={12} xs={12}>
                             <div className="about-middle-text1">
                                 <h4 className="about-middle-text1-h2">Why is Unreal Engine so popular?</h4>
                                 <p className="text-secondary">
@@ -60,12 +54,10 @@ const AboutPart = () => {
                                 The engine comprises parts that include a graphics engine, online module, physics engine, sound engine, input, and Gameplay Framework. It has several editors that help in the development of the game. On startup, It has an Unreal Editor by default. This Editor is the main editor that helps the user view and works with other sub-platforms and editors.
                                 </p>
                             </div>                            
-                        </Col>
-                    </Row>
+                    </Col>                    
                 </div>
                 <div className="about-middle-part2">
-                    <Row>
-                        <Col lg={6} md={6} sm={12} xs={12}>
+                    <Col lg={12} md={12} sm={12} xs={12}>
                             <div className="about-middle-text2">
                                 <h4 className="about-middle-text2-h2">What is your benefit ?</h4>
                                 <p className="text-secondary">
@@ -78,11 +70,7 @@ const AboutPart = () => {
                                 and university assignment and most importantly you will get our support within 24 hours.
                                 </p>
                             </div>
-                        </Col>
-                        <Col lg={6} md={6} sm={12} xs={12}>
-                            <Image className="about-middle-img2" src={Unrealenginelanding2} />
-                        </Col>
-                    </Row>
+                    </Col>                    
                 </div>
             </Container>
         </div>

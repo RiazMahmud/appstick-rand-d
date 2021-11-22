@@ -60,7 +60,7 @@ const GameDevelopment = () => {
                         </Row>
                     </Container>             
                 </div>
-                <div><Footer/></div>                
+                <div className="footer"><Footer/></div>                
             </div>
         </div>
     );

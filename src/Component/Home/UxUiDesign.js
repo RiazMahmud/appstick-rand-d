@@ -3,7 +3,7 @@ import { Card, Col, Container, Row ,Button} from 'react-bootstrap';
 import UpperNavBar from '../UpperNavBar/UpperNavBar';
 import UXUiMiddleTab from '../UxUiMiddleTab/MiddleTab';
 import UxUiSidePart from '../SidePart/UxUISidePart';
-import uxui from '../../Images/uxui (1).png'
+import uxui from '../../Images/uxui(1).png'
 import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 
@@ -34,7 +34,7 @@ const UxUiDesign = () => {
                                 </Card>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
-                                <h1 className="header-text-middle mt-4">Professional Course On UI/UX Design</h1>
+                                <h1 className="header-text-middle mt-4">Diploma In UI Design</h1>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
                                 <div className="header-button-part">                                    
@@ -60,7 +60,7 @@ const UxUiDesign = () => {
                         </Row>
                     </Container>             
                 </div>
-                <div><Footer/></div>                
+                <div className="footer"><Footer/></div>                
             </div>
         </div>
     );

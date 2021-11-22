@@ -13,17 +13,20 @@ const LaravelSidePart = () => {
     return (
         <div className="side-part-main">
             <div className="side-part-1">
-                <h3 className="side-part1-text1">Best Instructor</h3>
-                <div className="side-part-underline"></div>
-                <div className="side-part1-inside">
-                    <Image className="rounded-circle ms-5 ps-2" src={Biplob} style={{width:'120px', height:'120px'}}/>
-                    <p className="mt-5 text-secondary" style={{textAlign:'left'}}>My name is Biplab Sarkar and I am a Senior Consultant for Appstick. I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting technological advances that happen every day. I graduated from the Khulna University with a Bachelor's Degree in Computer Science. I have more than 5+ years of experience in Software Development.</p>
-                    <div style={{display:'flex',marginTop: '10px',color:'#1E1E1E',justifyContent:'center'}}>
-                        <div style={{width:'40px', height:'40px',borderRadius:'25px',backgroundColor:'lightgrey',paddingTop:'5px',paddingLeft:'7px',cursor:'pointer'}}>
-                            <a href="https://www.facebook.com/biplab.sarker.9" target="_blank" style={{color:'#1E1E1E'}}><FacebookIcon/></a>
-                        </div>                            
-                        <div style={{width:'40px', height:'40px',borderRadius:'25px',backgroundColor:'lightgrey',paddingTop:'5px',paddingLeft:'7px',cursor:'pointer',marginLeft:'10px'}}>
-                            <a href="https://www.linkedin.com/in/biplab-sarker-03539852/" target="_blank" style={{color:'#1E1E1E'}}><LinkedInIcon/></a></div>
+                <h3 className="side-part1-text1">Senior Instructor</h3>
+                <div className="side-part-underline"></div>                
+                <div className="side-part2-inside">
+                    <Image className="side-part-2-img rounded-circle" src={Biplob} style={{width:'100px', height:'100px'}}/>
+                    <div className="side-part2-text">
+                        <h5>Biplab Sarkar</h5>
+                        <p style={{textAlign:'justify'}}>My name is Biplab Sarkar and I am a Senior Consultant for Appstick. I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting technological advances that happen every day. I graduated from the Khulna University with a Bachelor's Degree in Computer Science. I have more than 5+ years of experience in Software Development.</p>
+                        <div style={{display:'flex',marginTop: '10px',color:'#1E1E1E'}}>
+                            <div style={{width:'40px', height:'40px',borderRadius:'25px',backgroundColor:'lightgrey',paddingTop:'5px',paddingLeft:'7px',cursor:'pointer'}}>
+                                <a href="https://www.facebook.com/biplab.sarker.9" target="_blank" style={{color:'#1E1E1E'}}><FacebookIcon/></a></div>                            
+                            <div style={{width:'40px', height:'40px',borderRadius:'25px',backgroundColor:'lightgrey',paddingTop:'5px',paddingLeft:'7px',cursor:'pointer',marginLeft:'10px'}}>
+                                <a href="https://www.linkedin.com/in/biplab-sarker-03539852/" target="_blank" style={{color:'#1E1E1E'}}><LinkedInIcon/></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

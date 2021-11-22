@@ -1,7 +1,5 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import Figmalandingpage1 from '../../Images/Figma Landing Page photo/Figma_landing page1.png';
-import Figmalandingpage2 from '../../Images/Figma Landing Page photo/Figma_landing page2.png';
+import { Col, Container } from 'react-bootstrap';
 
 const AboutPart = () => {
     return (
@@ -13,13 +11,9 @@ const AboutPart = () => {
                   </p>
                 </div>                
                 <div className="about-middle-part1">
-                    <Row>
-                        <Col lg={6} md={6} sm={12} xs={12}>
-                            <Image className="about-middle-img1" src={Figmalandingpage1} />
-                        </Col>
-                        <Col lg={6} md={6} sm={12} xs={12}>
+                    <Col lg={12} md={12} sm={12} xs={12}>
                             <div className="about-middle-text1">
-                                <h4 className="about-middle-text1-h2">Why Should You Learn UI Design?</h4>
+                                <h4 className="about-middle-text1-h2">Why should you learn UI Design?</h4>
                                 <p>
                                 <strong> creative job you will love:</strong> UI is a satisfying job if you're curious about human behavior and passionate about
                                 how design shapes the products and experiences around you. UI design was rated in Career Karma's top 25 tech jobs in 2021.</p>
@@ -32,12 +26,10 @@ const AboutPart = () => {
                                  agencies, large corporates, on a freelance basis, or even remotely.
                                 </p>
                             </div>                            
-                        </Col>
-                    </Row>
+                    </Col>                    
                 </div>
                 <div className="about-middle-part2">
-                    <Row>
-                        <Col lg={6} md={6} sm={12} xs={12}>
+                        <Col lg={12} md={12} sm={12} xs={12}>
                             <div className="about-middle-text2">
                                 <h4 className="about-middle-text2-h2">What is your benefit ?</h4>
                                 <p>
@@ -50,11 +42,7 @@ const AboutPart = () => {
                                 a chance to be hired in our software firm by approving a real project.
                                 </p>
                             </div>
-                        </Col>
-                        <Col lg={6} md={6} sm={12} xs={12}>
-                            <Image className="about-middle-img2" src={Figmalandingpage2} />
-                        </Col>
-                    </Row>
+                        </Col>                       
                 </div>
             </Container>
         </div>

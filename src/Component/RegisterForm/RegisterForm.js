@@ -15,7 +15,6 @@ const RegisterForm = () => {
     const [message, setMessage] = useState("");
 
     const addManager = (data) =>{
-        console.log(data);
         ContactFormDataAccess.registerFromSubmit(data.Name, data.InstitutionName, data.Subject, data.Session, data.BirthDay, data.Address, data.Email, data.Phone,course,data.gender,)
         .then((data) => {
             if(data.success===true){
